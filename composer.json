@@ -1,0 +1,26 @@
+{
+    "name": "dcat-admin-extensions/everan-ueditor",
+    "description": "ueditor",
+    "type": "library",
+    "keywords": ["ueditor", "extension"],
+    "homepage": "https://github.com/Everan-1994/UEditor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everan",
+            "email": "everan@aliyun.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\UEditor\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
