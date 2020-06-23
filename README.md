@@ -142,28 +142,28 @@ return [
 
 ### 基本使用
 ```php
-$form->ueditor('content');
+$form->UEditor('content');
 ```
 
 ### 修改编辑器高度
 ```php
-$form->ueditor('content')->height(500);
+$form->UEditor('content')->height(500);
 ```
 
 ### 修改文件存储storage
 ```php
-$form->ueditor('content')->disk('oss');
+$form->UEditor('content')->disk('oss');
 ```
 
 ### 修改文件上传接口
 如果你需要用到自定义的文件上传接口，可以通过这个方法覆盖掉默认的上传接口
 ```php
-$form->ueditor('content')->server('file-upload');
+$form->UEditor('content')->server('file-upload');
 ```
 
 ### 修改ueditor配置
 ```php
-$form->ueditor('content')->options([
+$form->UEditor('content')->options([
     'maximumWords' => 1000,
 ]);
 ```
