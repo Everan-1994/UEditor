@@ -1,5 +1,5 @@
 {
-    "name": "dcat-admin-extensions/everan-ueditor",
+    "name": "everan/ueditor",
     "description": "ueditor",
     "type": "library",
     "keywords": ["ueditor", "extension"],
